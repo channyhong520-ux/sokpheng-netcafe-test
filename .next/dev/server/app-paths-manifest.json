@@ -1,7 +1,4 @@
 {
-  "/api/checkout/route": "app/api/checkout/route.js",
-  "/api/transactions/[id]/status/route": "app/api/transactions/[id]/status/route.js",
-  "/page": "app/page.js",
-  "/pay/[id]/page": "app/pay/[id]/page.js",
-  "/transactions/page": "app/transactions/page.js"
+  "/api/telegram/test/route": "app/api/telegram/test/route.js",
+  "/page": "app/page.js"
 }

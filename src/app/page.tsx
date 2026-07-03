@@ -42,6 +42,150 @@ const PRODUCTS = [
     name: "Mango Sticky Rice",
     usd: 4.0,
   },
+  {
+    image:
+      "https://images.unsplash.com/photo-1447933601403-0c6688951566?auto=format&fit=crop&q=80&w=400",
+    name: "Espresso",
+    usd: 2.0,
+  },
+  {
+    image:
+      "https://images.unsplash.com/photo-1514432324607-2e467f4af445?auto=format&fit=crop&q=80&w=400",
+    name: "Cappuccino",
+    usd: 3.0,
+  },
+  {
+    image:
+      "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&q=80&w=400",
+    name: "Americano",
+    usd: 2.25,
+  },
+  {
+    image:
+      "https://images.unsplash.com/photo-1500382017468-7049fae79eef?auto=format&fit=crop&q=80&w=400",
+    name: "Flat White",
+    usd: 3.25,
+  },
+  {
+    image:
+      "https://images.unsplash.com/photo-1502914240471-58c21f1b7d4d?auto=format&fit=crop&q=80&w=400",
+    name: "Mocha",
+    usd: 3.5,
+  },
+  {
+    image:
+      "https://images.unsplash.com/photo-1508737764454-cff106cdd8b0?auto=format&fit=crop&q=80&w=400",
+    name: "Macchiato",
+    usd: 2.75,
+  },
+  {
+    image:
+      "https://images.unsplash.com/photo-1490523967868-a2b35b27338f?auto=format&fit=crop&q=80&w=400",
+    name: "Iced Americano",
+    usd: 2.5,
+  },
+  {
+    image:
+      "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&q=80&w=400",
+    name: "Cold Brew",
+    usd: 2.75,
+  },
+  {
+    image:
+      "https://images.unsplash.com/photo-1542990253-ce37c71fbbde?auto=format&fit=crop&q=80&w=400",
+    name: "Iced Cappuccino",
+    usd: 3.25,
+  },
+  {
+    image:
+      "https://images.unsplash.com/photo-1563859371-f403bf289096?auto=format&fit=crop&q=80&w=400",
+    name: "Vietnamese Coffee",
+    usd: 3.0,
+  },
+  {
+    image:
+      "https://images.unsplash.com/photo-1594521231261-5a0c2c35cdde?auto=format&fit=crop&q=80&w=400",
+    name: "Chocolate Croissant",
+    usd: 2.0,
+  },
+  {
+    image:
+      "https://images.unsplash.com/photo-1599599810694-b5ac4dd33c4b?auto=format&fit=crop&q=80&w=400",
+    name: "Almond Croissant",
+    usd: 2.25,
+  },
+  {
+    image:
+      "https://images.unsplash.com/photo-1585521537396-c5169b90c97c?auto=format&fit=crop&q=80&w=400",
+    name: "Pain au Chocolat",
+    usd: 2.25,
+  },
+  {
+    image:
+      "https://images.unsplash.com/photo-1551024601-bec78abe488e?auto=format&fit=crop&q=80&w=400",
+    name: "Blueberry Muffin",
+    usd: 2.5,
+  },
+  {
+    image:
+      "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&q=80&w=400",
+    name: "Strawberry Tart",
+    usd: 3.75,
+  },
+  {
+    image:
+      "https://images.unsplash.com/photo-1568718846914-96b305d2aaeb?auto=format&fit=crop&q=80&w=400",
+    name: "Cheesecake Slice",
+    usd: 4.0,
+  },
+  {
+    image:
+      "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&q=80&w=400",
+    name: "Chocolate Cake",
+    usd: 3.75,
+  },
+  {
+    image:
+      "https://images.unsplash.com/photo-1589985630997-0195a5c1269c?auto=format&fit=crop&q=80&w=400",
+    name: "Tiramisu Cup",
+    usd: 4.5,
+  },
+  {
+    image:
+      "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&q=80&w=400",
+    name: "Carrot Cake",
+    usd: 3.5,
+  },
+  {
+    image:
+      "https://images.unsplash.com/photo-1585518419759-7fd760b41d6f?auto=format&fit=crop&q=80&w=400",
+    name: "Lemon Cake",
+    usd: 3.25,
+  },
+  {
+    image:
+      "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&q=80&w=400",
+    name: "Green Tea Latte",
+    usd: 3.5,
+  },
+  {
+    image:
+      "https://images.unsplash.com/photo-1591080876345-f5fb1e52ad5f?auto=format&fit=crop&q=80&w=400",
+    name: "Oolong Tea",
+    usd: 2.5,
+  },
+  {
+    image:
+      "https://images.unsplash.com/photo-1594918132657-a0895b4a0ac5?auto=format&fit=crop&q=80&w=400",
+    name: "Chamomile Tea",
+    usd: 2.25,
+  },
+  {
+    image:
+      "https://images.unsplash.com/photo-1576092160562-40fed08345d3?auto=format&fit=crop&q=80&w=400",
+    name: "Fresh Croissant",
+    usd: 1.5,
+  },
 ];
 
 const KHR_RATE = 4100;
@@ -54,6 +198,13 @@ export default function CheckoutPage() {
   const [customAmount, setCustomAmount] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [paymentMethod, setPaymentMethod] = useState<"khqr" | "delivery">("khqr");
+  const [showDeliveryForm, setShowDeliveryForm] = useState(false);
+  const [deliveryData, setDeliveryData] = useState({
+    name: "",
+    phone: "",
+    location: "",
+  });
 
   useEffect(() => {
     setMounted(true);
@@ -95,6 +246,18 @@ export default function CheckoutPage() {
       return next;
     });
 
+  const sendTelegramAlert = async (message: string) => {
+    try {
+      await fetch("/api/telegram/test", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ message }),
+      });
+    } catch (e) {
+      console.error("Failed to send Telegram alert:", e);
+    }
+  };
+
   const payNow = async () => {
     setError(null);
     const amount =
@@ -117,9 +280,97 @@ export default function CheckoutPage() {
       });
       const data = await res.json();
       if (!res.ok) throw new Error(data.error || "Checkout failed");
+      
+      // Format time in Phnom Penh timezone
+      const orderTime = new Date().toLocaleString("en-US", {
+        dateStyle: "medium",
+        timeStyle: "short",
+        timeZone: "Asia/Phnom_Penh",
+      });
+
+      const telegramMsg = [
+        "💳 <b>New KHQR Payment</b>",
+        "",
+        `🛍 Items: ${description}`,
+        `💰 Amount: <b>${formatMoney(amount)}</b>`,
+        "",
+        `📝 Transaction ID: <code>${data.id}</code>`,
+        `⏰ Order Time: ${orderTime}`,
+      ].join("\n");
+      
+      await sendTelegramAlert(telegramMsg);
+      
       router.push(`/pay/${data.id}`);
     } catch (e) {
       setError(e instanceof Error ? e.message : "Something went wrong.");
+      setLoading(false);
+    }
+  };
+
+  const submitDeliveryOrder = async () => {
+    setError(null);
+    if (!deliveryData.name.trim()) {
+      setError("Please enter your name.");
+      return;
+    }
+    if (!deliveryData.phone.trim()) {
+      setError("Please enter your phone number.");
+      return;
+    }
+    if (!deliveryData.location.trim()) {
+      setError("Please enter your delivery location.");
+      return;
+    }
+    const amount =
+      currency === "USD"
+        ? Math.round(totalUsd * 100) / 100
+        : Math.round(cartUsd * KHR_RATE) + Math.round(custom);
+    if (amount <= 0) {
+      setError("Add items to your cart or enter a custom amount.");
+      return;
+    }
+
+    setLoading(true);
+    try {
+      const description =
+        cartItems.map((p) => `${p.name} x${cart[p.name]}`).join(", ") ||
+        "Custom order";
+      
+      // Format time in Phnom Penh timezone
+      const orderTime = new Date().toLocaleString("en-US", {
+        dateStyle: "medium",
+        timeStyle: "short",
+        timeZone: "Asia/Phnom_Penh",
+      });
+
+      const telegramMsg = [
+        "🚚 <b>New Delivery Order</b>",
+        "",
+        "<b>Customer Information:</b>",
+        `👤 Name: <b>${deliveryData.name}</b>`,
+        `📞 Phone: <b>${deliveryData.phone}</b>`,
+        `📍 Location: <b>${deliveryData.location}</b>`,
+        "",
+        "<b>Order Details:</b>",
+        `🛍 Items: ${description}`,
+        `💰 Total: <b>${formatMoney(amount)}</b>`,
+        "",
+        `⏰ Order Time: ${orderTime}`,
+      ].join("\n");
+      
+      await sendTelegramAlert(telegramMsg);
+
+      setShowDeliveryForm(false);
+      setDeliveryData({ name: "", phone: "", location: "" });
+      setError(null);
+      
+      // Show success message
+      alert("Order confirmed! We will contact you soon to finalize the delivery.");
+      setCart({});
+      setCustomAmount("");
+    } catch (e) {
+      setError(e instanceof Error ? e.message : "Something went wrong.");
+    } finally {
       setLoading(false);
     }
   };
@@ -280,22 +531,142 @@ export default function CheckoutPage() {
               {formatMoney(total)}
             </div>
           </div>
-          <button
-            onClick={payNow}
-            disabled={loading || total <= 0}
-            className="flex items-center gap-2 rounded-full bg-[#E1232E] px-8 py-3.5 text-sm font-bold text-white shadow-lg shadow-red-200 transition hover:bg-[#c11d27] disabled:opacity-40"
-          >
-            {loading ? (
-              <>
-                <span className="h-4 w-4 animate-spin rounded-full border-2 border-white/40 border-t-white" />
-                Generating KHQR…
-              </>
-            ) : (
-              <>Pay with KHQR</>
-            )}
-          </button>
+          <div className="flex gap-2">
+            <button
+              onClick={() => setPaymentMethod("khqr")}
+              className={`rounded-full px-4 py-2.5 text-sm font-bold transition ${
+                paymentMethod === "khqr"
+                  ? "bg-[#E1232E] text-white shadow-lg shadow-red-200"
+                  : "bg-slate-200 text-slate-700 hover:bg-slate-300"
+              }`}
+            >
+              KHQR
+            </button>
+            <button
+              onClick={() => setPaymentMethod("delivery")}
+              className={`rounded-full px-4 py-2.5 text-sm font-bold transition ${
+                paymentMethod === "delivery"
+                  ? "bg-[#E1232E] text-white shadow-lg shadow-red-200"
+                  : "bg-slate-200 text-slate-700 hover:bg-slate-300"
+              }`}
+            >
+              Delivery
+            </button>
+          </div>
+          {paymentMethod === "khqr" ? (
+            <button
+              onClick={payNow}
+              disabled={loading || total <= 0}
+              className="flex items-center gap-2 rounded-full bg-[#E1232E] px-8 py-3.5 text-sm font-bold text-white shadow-lg shadow-red-200 transition hover:bg-[#c11d27] disabled:opacity-40"
+            >
+              {loading ? (
+                <>
+                  <span className="h-4 w-4 animate-spin rounded-full border-2 border-white/40 border-t-white" />
+                  Generating KHQR…
+                </>
+              ) : (
+                <>Pay with KHQR</>
+              )}
+            </button>
+          ) : (
+            <button
+              onClick={() => setShowDeliveryForm(true)}
+              disabled={total <= 0}
+              className="rounded-full bg-[#E1232E] px-8 py-3.5 text-sm font-bold text-white shadow-lg shadow-red-200 transition hover:bg-[#c11d27] disabled:opacity-40"
+            >
+              Order for Delivery
+            </button>
+          )}
         </div>
       </div>
+
+      {/* Delivery Form Modal */}
+      {showDeliveryForm && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 p-4">
+          <div className="w-full max-w-md rounded-3xl bg-white p-6 shadow-xl">
+            <h2 className="text-xl font-bold text-slate-900 mb-4">Delivery Information</h2>
+            
+            <div className="space-y-4 mb-6">
+              <div>
+                <label className="block text-sm font-semibold text-slate-700 mb-2">
+                  Name
+                </label>
+                <input
+                  type="text"
+                  value={deliveryData.name}
+                  onChange={(e) =>
+                    setDeliveryData({ ...deliveryData, name: e.target.value })
+                  }
+                  placeholder="Your name"
+                  className="w-full rounded-xl border border-slate-300 px-4 py-2.5 outline-none focus:border-[#E1232E] focus:ring-2 focus:ring-[#E1232E]/20"
+                />
+              </div>
+
+              <div>
+                <label className="block text-sm font-semibold text-slate-700 mb-2">
+                  Phone Number
+                </label>
+                <input
+                  type="tel"
+                  value={deliveryData.phone}
+                  onChange={(e) =>
+                    setDeliveryData({ ...deliveryData, phone: e.target.value })
+                  }
+                  placeholder="+855 ..."
+                  className="w-full rounded-xl border border-slate-300 px-4 py-2.5 outline-none focus:border-[#E1232E] focus:ring-2 focus:ring-[#E1232E]/20"
+                />
+              </div>
+
+              <div>
+                <label className="block text-sm font-semibold text-slate-700 mb-2">
+                  Delivery Location
+                </label>
+                <textarea
+                  value={deliveryData.location}
+                  onChange={(e) =>
+                    setDeliveryData({ ...deliveryData, location: e.target.value })
+                  }
+                  placeholder="Street address, building, etc."
+                  rows={3}
+                  className="w-full rounded-xl border border-slate-300 px-4 py-2.5 outline-none focus:border-[#E1232E] focus:ring-2 focus:ring-[#E1232E]/20"
+                />
+              </div>
+            </div>
+
+            {error && (
+              <div className="mb-4 rounded-xl bg-red-50 px-4 py-3 text-sm font-medium text-red-700">
+                {error}
+              </div>
+            )}
+
+            <div className="flex gap-3">
+              <button
+                onClick={() => {
+                  setShowDeliveryForm(false);
+                  setError(null);
+                }}
+                className="flex-1 rounded-full bg-slate-200 px-4 py-3 text-sm font-bold text-slate-700 hover:bg-slate-300 transition"
+              >
+                Cancel
+              </button>
+              <button
+                onClick={submitDeliveryOrder}
+                disabled={loading}
+                className="flex-1 rounded-full bg-[#E1232E] px-4 py-3 text-sm font-bold text-white hover:bg-[#c11d27] transition disabled:opacity-40 flex items-center justify-center gap-2"
+              >
+                {loading ? (
+                  <>
+                    <span className="h-4 w-4 animate-spin rounded-full border-2 border-white/40 border-t-white" />
+                    Confirming…
+                  </>
+                ) : (
+                  "Confirm Order"
+                )}
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </main>
   );
 }

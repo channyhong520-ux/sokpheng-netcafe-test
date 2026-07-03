@@ -16,7 +16,7 @@ export async function GET() {
 }
 
 /** POST: send a test alert to the configured channel. */
-export async function POST() {
+export async function POST(request: Request) {
   if (!isTelegramConfigured()) {
     return NextResponse.json(
       {
@@ -28,15 +28,28 @@ export async function POST() {
     );
   }
 
-  const result = await sendTelegramMessage(
-    [
+  let messageText = "";
+
+  try {
+    const body = await request.json();
+    messageText = body.message || "";
+  } catch {
+    // If no JSON body, use default test message
+    messageText = "";
+  }
+
+  // If no custom message, use default test message
+  if (!messageText) {
+    messageText = [
       "🔔 <b>Test alert from KHQR Checkout</b>",
       "",
       "Your Telegram integration is working! You will receive alerts here when:",
       "🆕 a new KHQR checkout is created",
       "✅ a payment is received",
-    ].join("\n")
-  );
+    ].join("\n");
+  }
+
+  const result = await sendTelegramMessage(messageText);
 
   if (!result.ok) {
     return NextResponse.json(
