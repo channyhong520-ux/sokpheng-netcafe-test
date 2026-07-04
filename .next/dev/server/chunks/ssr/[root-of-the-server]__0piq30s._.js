@@ -178,9 +178,17 @@ function SiteFooter() {
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "flex items-center gap-2.5",
                                     children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: "flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-[#E1232E] to-[#8f141c] text-lg font-black text-white",
-                                            children: "S"
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "h-10 w-10 overflow-hidden rounded-xl shadow-md shadow-red-200",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                                src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiYKqy-iKkjZUEu8RfoHDtnp3uRlPVAvdxfftt4me6t64QVVC-9fFdTw&s=10",
+                                                alt: "Coffee NT26 logo",
+                                                className: "h-full w-full object-cover"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/site-footer.tsx",
+                                                lineNumber: 12,
+                                                columnNumber: 17
+                                            }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/site-footer.tsx",
                                             lineNumber: 11,
@@ -189,19 +197,19 @@ function SiteFooter() {
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             className: "text-sm font-black tracking-tight text-white",
                                             children: [
-                                                "SOKPHENG ",
+                                                "Coffee ",
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     className: "text-[#E1232E]",
-                                                    children: "NETCAFE"
+                                                    children: "NT26"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/site-footer.tsx",
-                                                    lineNumber: 15,
-                                                    columnNumber: 26
+                                                    lineNumber: 19,
+                                                    columnNumber: 24
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/site-footer.tsx",
-                                            lineNumber: 14,
+                                            lineNumber: 18,
                                             columnNumber: 15
                                         }, this)
                                     ]
@@ -215,7 +223,7 @@ function SiteFooter() {
                                     children: "Your neighborhood café & internet lounge in Phnom Penh. Fresh drinks, tasty snacks, fast Wi-Fi — pay in seconds with Bakong KHQR."
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/site-footer.tsx",
-                                    lineNumber: 18,
+                                    lineNumber: 22,
                                     columnNumber: 13
                                 }, this)
                             ]
@@ -231,7 +239,7 @@ function SiteFooter() {
                                     children: "Quick links"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/site-footer.tsx",
-                                    lineNumber: 27,
+                                    lineNumber: 31,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -244,12 +252,12 @@ function SiteFooter() {
                                                 children: "Menu & Checkout"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/site-footer.tsx",
-                                                lineNumber: 32,
+                                                lineNumber: 36,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/site-footer.tsx",
-                                            lineNumber: 31,
+                                            lineNumber: 35,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -259,24 +267,24 @@ function SiteFooter() {
                                                 children: "Transaction History"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/site-footer.tsx",
-                                                lineNumber: 37,
+                                                lineNumber: 41,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/site-footer.tsx",
-                                            lineNumber: 36,
+                                            lineNumber: 40,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/site-footer.tsx",
-                                    lineNumber: 30,
+                                    lineNumber: 34,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/site-footer.tsx",
-                            lineNumber: 26,
+                            lineNumber: 30,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -286,7 +294,7 @@ function SiteFooter() {
                                     children: "Visit us"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/site-footer.tsx",
-                                    lineNumber: 49,
+                                    lineNumber: 53,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -299,14 +307,14 @@ function SiteFooter() {
                                                     children: "📍"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/site-footer.tsx",
-                                                    lineNumber: 54,
+                                                    lineNumber: 58,
                                                     columnNumber: 17
                                                 }, this),
                                                 " St. 271, Toul Kork, Phnom Penh, Cambodia"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/site-footer.tsx",
-                                            lineNumber: 53,
+                                            lineNumber: 57,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -316,14 +324,14 @@ function SiteFooter() {
                                                     children: "🕐"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/site-footer.tsx",
-                                                    lineNumber: 57,
+                                                    lineNumber: 61,
                                                     columnNumber: 17
                                                 }, this),
                                                 " Open daily · 7:00 AM – 10:00 PM"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/site-footer.tsx",
-                                            lineNumber: 56,
+                                            lineNumber: 60,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -333,14 +341,14 @@ function SiteFooter() {
                                                     children: "📞"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/site-footer.tsx",
-                                                    lineNumber: 60,
+                                                    lineNumber: 64,
                                                     columnNumber: 17
                                                 }, this),
                                                 " +855 12 345 678"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/site-footer.tsx",
-                                            lineNumber: 59,
+                                            lineNumber: 63,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -350,26 +358,26 @@ function SiteFooter() {
                                                     children: "✉️"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/site-footer.tsx",
-                                                    lineNumber: 63,
+                                                    lineNumber: 67,
                                                     columnNumber: 17
                                                 }, this),
-                                                " hello@sokphengnetcafe.com"
+                                                " hello@coffeent26.com"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/site-footer.tsx",
-                                            lineNumber: 62,
+                                            lineNumber: 66,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/site-footer.tsx",
-                                    lineNumber: 52,
+                                    lineNumber: 56,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/site-footer.tsx",
-                            lineNumber: 48,
+                            lineNumber: 52,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -379,7 +387,7 @@ function SiteFooter() {
                                     children: "We accept"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/site-footer.tsx",
-                                    lineNumber: 70,
+                                    lineNumber: 74,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -390,7 +398,7 @@ function SiteFooter() {
                                             children: "KHQR"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/site-footer.tsx",
-                                            lineNumber: 74,
+                                            lineNumber: 78,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -399,20 +407,65 @@ function SiteFooter() {
                                                 "Bakong",
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                     fileName: "[project]/src/components/site-footer.tsx",
-                                                    lineNumber: 79,
+                                                    lineNumber: 83,
                                                     columnNumber: 17
                                                 }, this),
                                                 "Payment"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/site-footer.tsx",
-                                            lineNumber: 77,
+                                            lineNumber: 81,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/site-footer.tsx",
-                                    lineNumber: 73,
+                                    lineNumber: 77,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "mt-4 flex flex-wrap items-center gap-2",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                            src: "https://www.bank-cambodia.org/wp-content/uploads/2023/08/master-logo-aba.jpg",
+                                            alt: "ABA",
+                                            className: "h-8 w-auto rounded-sm"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/site-footer.tsx",
+                                            lineNumber: 88,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                            src: "https://cccbic.org/businesses/430-logo.jpg",
+                                            alt: "ACLEDA",
+                                            className: "h-8 w-auto rounded-sm"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/site-footer.tsx",
+                                            lineNumber: 93,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                            src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLbF439gy6zvgIqmwtZXG0ajK5oHG2UKyv1E7QQLGUw7AiycAuZy2dcEY&s=10",
+                                            alt: "WING",
+                                            className: "h-8 w-auto rounded-sm"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/site-footer.tsx",
+                                            lineNumber: 98,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                            src: "https://play-lh.googleusercontent.com/Fk6vi1cxwiXsOvyK4PlTKK8D9bjsFjvkpfk4ZvQjwjWhxf1LnF-MCnglpoCTn0-NrbAcuUPp5EAs3K8TMjiQruw",
+                                            alt: "SATHAPANA",
+                                            className: "h-8 w-auto rounded-sm"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/site-footer.tsx",
+                                            lineNumber: 103,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/src/components/site-footer.tsx",
+                                    lineNumber: 87,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -420,13 +473,13 @@ function SiteFooter() {
                                     children: "One QR, every bank — ABA, ACLEDA, Wing, TrueMoney and all Bakong member apps."
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/site-footer.tsx",
-                                    lineNumber: 83,
+                                    lineNumber: 109,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/site-footer.tsx",
-                            lineNumber: 69,
+                            lineNumber: 73,
                             columnNumber: 11
                         }, this)
                     ]
@@ -442,11 +495,11 @@ function SiteFooter() {
                             children: [
                                 "© ",
                                 new Date().getFullYear(),
-                                " SOKPHENG NETCAFE. All rights reserved."
+                                " Coffee NT26. All rights reserved."
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/site-footer.tsx",
-                            lineNumber: 92,
+                            lineNumber: 118,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -454,24 +507,23 @@ function SiteFooter() {
                                 "Powered by ",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "font-bold text-slate-300",
-                                    children: "Bakong KHQR"
+                                    children: "T4 Development"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/site-footer.tsx",
-                                    lineNumber: 96,
+                                    lineNumber: 122,
                                     columnNumber: 24
                                 }, this),
-                                " ",
-                                "· National Bank of Cambodia"
+                                " "
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/site-footer.tsx",
-                            lineNumber: 95,
+                            lineNumber: 121,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/site-footer.tsx",
-                    lineNumber: 91,
+                    lineNumber: 117,
                     columnNumber: 9
                 }, this)
             ]

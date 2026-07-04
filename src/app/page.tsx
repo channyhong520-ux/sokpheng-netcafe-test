@@ -386,7 +386,7 @@ export default function CheckoutPage() {
             Welcome to
           </span>
           <h1 className="text-2xl font-black tracking-tight sm:text-3xl">
-            SOKPHENG NETCAFE
+            Coffee NT26
           </h1>
           <p className="text-sm text-white/80">
             Order your favorites and pay instantly with Bakong KHQR — no cash

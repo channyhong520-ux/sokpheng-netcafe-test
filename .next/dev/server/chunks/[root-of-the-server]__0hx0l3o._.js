@@ -196,7 +196,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$bakong$2d$kh
 ;
 const MERCHANT = {
     bakongAccount: process.env.BAKONG_ACCOUNT_ID || "sokpheng_phoeurn@bkrt",
-    name: process.env.MERCHANT_NAME || "SOKPHENG NETCAFE",
+    name: process.env.MERCHANT_NAME || "Coffee NT26",
     city: process.env.MERCHANT_CITY || "Phnom Penh"
 };
 const QR_LIFETIME_MS = 5 * 60 * 1000; // 5 minutes

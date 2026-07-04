@@ -69,7 +69,7 @@ export default function TelegramCard() {
           </div>
         </div>
 
-        <div className="flex items-center gap-2">
+        {/* <div className="flex items-center gap-2">
           {configured ? (
             <button
               onClick={sendTest}
@@ -88,7 +88,7 @@ export default function TelegramCard() {
               </button>
             )
           )}
-        </div>
+        </div> */}
       </div>
 
       {result && (

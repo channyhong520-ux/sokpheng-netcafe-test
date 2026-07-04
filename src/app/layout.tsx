@@ -3,9 +3,9 @@ import type { ReactNode } from "react";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "SOKPHENG NETCAFE · Pay with Bakong KHQR",
+  title: "Coffee NT26 · Pay with Bakong KHQR",
   description:
-    "SOKPHENG NETCAFE — café, drinks & internet lounge in Phnom Penh. Order and pay instantly with Bakong KHQR.",
+    "Coffee NT26 — café, drinks & internet lounge in Phnom Penh. Order and pay instantly with Bakong KHQR.",
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {

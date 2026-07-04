@@ -20,7 +20,7 @@ export default function SiteHeader() {
   if (!mounted) {
     return (
       <header className="border-b border-slate-200 bg-white py-3">
-        <div className="mx-auto max-w-5xl px-4 font-black">SOKPHENG NETCAFE</div>
+        <div className="mx-auto max-w-5xl px-4 font-black">Coffee NT26</div>
       </header>
     );
   }
@@ -35,12 +35,16 @@ export default function SiteHeader() {
       <div className="mx-auto flex max-w-5xl items-center justify-between px-4 py-3">
         {/* Brand */}
         <Link href="/" className="flex items-center gap-2.5">
-          <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-[#E1232E] to-[#8f141c] text-lg font-black text-white shadow-md shadow-red-200">
-            S
-          </span>
+          <div className="h-10 w-10 overflow-hidden rounded-xl shadow-md shadow-red-200">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiYKqy-iKkjZUEu8RfoHDtnp3uRlPVAvdxfftt4me6t64QVVC-9fFdTw&s=10"
+              alt="Coffee NT26 logo"
+              className="h-full w-full object-cover"
+            />
+          </div>
           <span>
             <span className="block text-base font-black leading-tight tracking-tight text-slate-900">
-              SOKPHENG <span className="text-[#E1232E]">NETCAFE</span>
+              Coffee <span className="text-[#E1232E]">NT26</span>
             </span>
             <span className="block text-[10px] font-medium uppercase tracking-[0.18em] text-slate-400">
               Café · Drinks · Internet

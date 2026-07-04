@@ -62,108 +62,81 @@ function TelegramCard() {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "flex flex-wrap items-center justify-between gap-3",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "flex items-center gap-3",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "flex h-10 w-10 items-center justify-center rounded-full bg-sky-100 text-xl",
-                                children: "✈️"
-                            }, void 0, false, {
-                                fileName: "[project]/src/components/telegram-card.tsx",
-                                lineNumber: 46,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "flex items-center gap-2",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                className: "text-sm font-bold text-slate-800",
-                                                children: "Telegram alerts"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/telegram-card.tsx",
-                                                lineNumber: 51,
-                                                columnNumber: 15
-                                            }, this),
-                                            configured === null ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: "h-2 w-2 animate-pulse rounded-full bg-slate-300"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/telegram-card.tsx",
-                                                lineNumber: 55,
-                                                columnNumber: 17
-                                            }, this) : configured ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: "rounded-full bg-emerald-100 px-2 py-0.5 text-[10px] font-bold text-emerald-700",
-                                                children: [
-                                                    "CONNECTED",
-                                                    channel ? ` · ${channel}` : ""
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/src/components/telegram-card.tsx",
-                                                lineNumber: 57,
-                                                columnNumber: 17
-                                            }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: "rounded-full bg-amber-100 px-2 py-0.5 text-[10px] font-bold text-amber-700",
-                                                children: "NOT CONFIGURED"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/telegram-card.tsx",
-                                                lineNumber: 61,
-                                                columnNumber: 17
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/components/telegram-card.tsx",
-                                        lineNumber: 50,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-xs text-slate-400",
-                                        children: "Get notified when a checkout is created and when payment arrives."
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/telegram-card.tsx",
-                                        lineNumber: 66,
-                                        columnNumber: 13
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/components/telegram-card.tsx",
-                                lineNumber: 49,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/src/components/telegram-card.tsx",
-                        lineNumber: 45,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "flex items-center gap-2",
-                        children: configured ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                            onClick: sendTest,
-                            disabled: testing,
-                            className: "rounded-full bg-sky-500 px-4 py-2 text-xs font-bold text-white shadow hover:bg-sky-600 disabled:opacity-50",
-                            children: testing ? "Sending…" : "Send test alert"
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "flex items-center gap-3",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                            className: "flex h-10 w-10 items-center justify-center rounded-full bg-sky-100 text-xl",
+                            children: "✈️"
                         }, void 0, false, {
                             fileName: "[project]/src/components/telegram-card.tsx",
-                            lineNumber: 74,
-                            columnNumber: 13
-                        }, this) : configured === false && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                            onClick: ()=>setShowHelp((s)=>!s),
-                            className: "rounded-full border border-slate-300 px-4 py-2 text-xs font-bold text-slate-600 hover:bg-slate-50",
-                            children: showHelp ? "Hide setup" : "How to set up"
-                        }, void 0, false, {
+                            lineNumber: 46,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "flex items-center gap-2",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                            className: "text-sm font-bold text-slate-800",
+                                            children: "Telegram alerts"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/telegram-card.tsx",
+                                            lineNumber: 51,
+                                            columnNumber: 15
+                                        }, this),
+                                        configured === null ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            className: "h-2 w-2 animate-pulse rounded-full bg-slate-300"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/telegram-card.tsx",
+                                            lineNumber: 55,
+                                            columnNumber: 17
+                                        }, this) : configured ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            className: "rounded-full bg-emerald-100 px-2 py-0.5 text-[10px] font-bold text-emerald-700",
+                                            children: [
+                                                "CONNECTED",
+                                                channel ? ` · ${channel}` : ""
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/src/components/telegram-card.tsx",
+                                            lineNumber: 57,
+                                            columnNumber: 17
+                                        }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            className: "rounded-full bg-amber-100 px-2 py-0.5 text-[10px] font-bold text-amber-700",
+                                            children: "NOT CONFIGURED"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/telegram-card.tsx",
+                                            lineNumber: 61,
+                                            columnNumber: 17
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/src/components/telegram-card.tsx",
+                                    lineNumber: 50,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "text-xs text-slate-400",
+                                    children: "Get notified when a checkout is created and when payment arrives."
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/telegram-card.tsx",
+                                    lineNumber: 66,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
                             fileName: "[project]/src/components/telegram-card.tsx",
-                            lineNumber: 83,
-                            columnNumber: 15
+                            lineNumber: 49,
+                            columnNumber: 11
                         }, this)
-                    }, void 0, false, {
-                        fileName: "[project]/src/components/telegram-card.tsx",
-                        lineNumber: 72,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/src/components/telegram-card.tsx",
+                    lineNumber: 45,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
                 fileName: "[project]/src/components/telegram-card.tsx",
                 lineNumber: 44,
                 columnNumber: 7
@@ -335,7 +308,7 @@ function SiteHeader() {
             className: "border-b border-slate-200 bg-white py-3",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "mx-auto max-w-5xl px-4 font-black",
-                children: "SOKPHENG NETCAFE"
+                children: "Coffee NT26"
             }, void 0, false, {
                 fileName: "[project]/src/components/site-header.tsx",
                 lineNumber: 23,
@@ -365,9 +338,17 @@ function SiteHeader() {
                         href: "/",
                         className: "flex items-center gap-2.5",
                         children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-[#E1232E] to-[#8f141c] text-lg font-black text-white shadow-md shadow-red-200",
-                                children: "S"
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "h-10 w-10 overflow-hidden rounded-xl shadow-md shadow-red-200",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                    src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiYKqy-iKkjZUEu8RfoHDtnp3uRlPVAvdxfftt4me6t64QVVC-9fFdTw&s=10",
+                                    alt: "Coffee NT26 logo",
+                                    className: "h-full w-full object-cover"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/site-header.tsx",
+                                    lineNumber: 39,
+                                    columnNumber: 13
+                                }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/site-header.tsx",
                                 lineNumber: 38,
@@ -378,19 +359,19 @@ function SiteHeader() {
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         className: "block text-base font-black leading-tight tracking-tight text-slate-900",
                                         children: [
-                                            "SOKPHENG ",
+                                            "Coffee ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 className: "text-[#E1232E]",
-                                                children: "NETCAFE"
+                                                children: "NT26"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/site-header.tsx",
-                                                lineNumber: 43,
-                                                columnNumber: 24
+                                                lineNumber: 47,
+                                                columnNumber: 22
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/site-header.tsx",
-                                        lineNumber: 42,
+                                        lineNumber: 46,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -398,13 +379,13 @@ function SiteHeader() {
                                         children: "Café · Drinks · Internet"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/site-header.tsx",
-                                        lineNumber: 45,
+                                        lineNumber: 49,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/site-header.tsx",
-                                lineNumber: 41,
+                                lineNumber: 45,
                                 columnNumber: 11
                             }, this)
                         ]
@@ -424,7 +405,7 @@ function SiteHeader() {
                                     children: item.label
                                 }, item.href, false, {
                                     fileName: "[project]/src/components/site-header.tsx",
-                                    lineNumber: 59,
+                                    lineNumber: 63,
                                     columnNumber: 15
                                 }, this);
                             }),
@@ -435,20 +416,20 @@ function SiteHeader() {
                                         className: "h-2 w-2 animate-pulse rounded-full bg-emerald-500"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/site-header.tsx",
-                                        lineNumber: 73,
+                                        lineNumber: 77,
                                         columnNumber: 13
                                     }, this),
                                     "Open now"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/site-header.tsx",
-                                lineNumber: 72,
+                                lineNumber: 76,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/site-header.tsx",
-                        lineNumber: 52,
+                        lineNumber: 56,
                         columnNumber: 9
                     }, this)
                 ]

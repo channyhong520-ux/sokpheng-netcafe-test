@@ -2,7 +2,7 @@ import { BakongKHQR, khqrData, IndividualInfo } from "bakong-khqr";
 
 export const MERCHANT = {
   bakongAccount: process.env.BAKONG_ACCOUNT_ID || "sokpheng_phoeurn@bkrt",
-  name: process.env.MERCHANT_NAME || "SOKPHENG NETCAFE",
+  name: process.env.MERCHANT_NAME || "Coffee NT26",
   city: process.env.MERCHANT_CITY || "Phnom Penh",
 };
 
